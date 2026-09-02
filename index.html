@@ -1,0 +1,187 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Resume Screening Platform</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <div class="logo">
+            Resume<span>AI</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">How It Works</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Main Section -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <h1>
+                    AI Resume
+                    <span>Screening Platform</span>
+                </h1>
+
+                <p>
+                    Analyze resumes and compare candidate skills
+                    with job requirements using an easy screening process.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Screening Card -->
+        <section class="screening-section">
+
+            <div class="card">
+
+                <h2>Resume Screening</h2>
+
+                <p class="card-description">
+                    Upload a resume and enter the job description
+                    to analyze the candidate.
+                </p>
+
+
+                <!-- Resume Upload -->
+                <div class="form-group">
+
+                    <label for="resume">
+                        Upload Resume
+                    </label>
+
+                    <div class="upload-box">
+
+                        <div class="upload-icon">
+                            📄
+                        </div>
+
+                        <p>
+                            Choose your resume
+                        </p>
+
+                        <span>
+                            PDF files only
+                        </span>
+
+                        <input
+                            type="file"
+                            id="resume"
+                            accept=".pdf"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- Job Description -->
+                <div class="form-group">
+
+                    <label for="job-description">
+                        Job Description
+                    </label>
+
+                    <textarea
+                        id="job-description"
+                        placeholder="Enter the job description here..."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- Analyze Button -->
+                <button class="analyze-btn">
+                    Analyze Resume
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Result Section -->
+        <section class="result-section">
+
+            <div class="result-card">
+
+                <h2>Screening Result</h2>
+
+                <div class="score-circle">
+                    <span>--</span>
+                </div>
+
+                <p class="score-text">
+                    Resume Match Score
+                </p>
+
+
+                <div class="skills-container">
+
+                    <div class="skill-box">
+
+                        <h3>Matching Skills</h3>
+
+                        <div class="skill-list">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Java</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-box">
+
+                        <h3>Missing Skills</h3>
+
+                        <div class="skill-list missing">
+                            <span>Docker</span>
+                            <span>AWS</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            AI Resume Screening Platform | Mini Project
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+```
